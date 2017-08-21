@@ -83,6 +83,3 @@ def matrix_factorization_model(num_users, num_items, embedding_dims=128, reg_emb
                   outputs=out)
     return model
 
-    model = Model(inputs=[user_input, item_input],
-                  outputs=out)
-    return model
